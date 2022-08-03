@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>AppDynamics.Azure.JavaAgent</id>
+    <version>4.3.5.6</version>
+    <authors>AppDynamics Field Engineering</authors>
+    <owners>AppDynamics</owners>
+    <iconUrl>https://www.appdynamics.com/media/uploaded-images/1487974583/appd-icon-small-32px.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://www.appdynamics.com/terms-of-use</licenseUrl>
+    <projectUrl>http://www.appdynamics.com/solutions/azure</projectUrl>
+    <summary>Manage the performance of your Java Windows Azure Apps with AppDynamics.</summary>
+    <description>
+      AppDynamics Java Agent Azure Site Extension. AppDynamics is a Cisco Company
+      With AppDynamics Java Agent for Windows Azure, users can now:
+      - Monitor the health of their Java based Windows Azure application
+      - Troubleshoot performance problems in real time
+      - Rapidly diagnose root cause of performance problems
+      - Dynamically scale up and scale down their Windows Azure application based on performance metrics
+
+      Installing this package will instrument the roles in your Java environment for monitoring by AppDynamics. There is no traditional Windows wizard-style installation procedure required to use AppDynamics for Windows Azure.
+    </description>
+    <releaseNotes>Java Azure Site Extension for Cisco | AppDynamics v1.0</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>AppDynamics APM Java Azure Agent Performance Monitoring</tags>
+  </metadata>
+  <files>
+    <file src="**\*.*" target="content" />
+  </files>
+</package>
